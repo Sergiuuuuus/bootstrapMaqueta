@@ -1,0 +1,64 @@
+body{
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(115,192,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(115,192,255,1))); /* safari4+,chrome */
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(115,192,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(115,192,255,1) 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(115,192,255,1) 100%); /* ie10+ */
+    background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(115,192,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#73C0FF',GradientType=1 ); /* ie6-9 */ 
+	background-repeat: no-repeat;
+	margin: auto;
+}
+header{
+	height: 200px;
+	width: 100vw;
+	background-color:white;
+	margin-top: 0px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 90px;
+}
+footer{
+	height: 200px;
+	width: 100vw;
+	background-color:black;
+	margin-bottom: 0px;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	padding: 90px;
+}
+.my-image{
+	box-shadow: 2px 2px 5px #999;
+}
+.the-back{
+	background: url("../img/bg-up-borj.png") top no-repeat, url("../img/bg-bot-borj.png") bottom no-repeat;
+	background-size: 100vw;
+}
+.logo{
+	margin: 100px;
+}
+.container{
+	width: 1200px;
+}
+.paragraph{
+	margin-bottom: 50px;
+	padding:15px;
+	font-size: 18;
+}
+.my-title{
+	font-size: 60px;
+}
+.my-subtitle{
+	font-size: 50px;
+}
+.centered{
+	text-align: center;
+}
+.centered h2,p{
+	margin: 40px;
+}
+.web-contacto{
+	font-size: 30px;
+	font-weight: bold;
+}
